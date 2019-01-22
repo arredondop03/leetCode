@@ -123,3 +123,40 @@ var reverse = function(x) {
 //   }
 //   return true;
 // };
+
+
+
+//-----------------------------------Valid Palindrome
+//Runtime 96ms
+
+// let isAlpha = (char) => {
+//   let code = char.charCodeAt()
+//   if ((code >= 97 && code <= 122) || (code >= 48 && code <= 57)) {
+//     return true
+//   }
+//   return false
+// }
+
+// let isPalindrome = (s) => {
+//   s = s.toLowerCase().split('')
+//   let i = 0, j = s.length - 1
+//   while(i < j){
+//     if(!isAlpha(s[i])){
+//       i++
+//     }
+//     if(!isAlpha(s[j])){
+//       j--
+//     }
+//     if(isAlpha(s[i]) && isAlpha(s[j])){
+//       if(s[i] === s[j]){
+//         i++
+//         j--
+//       } else {
+//         return false
+//       }
+//     }
+//   }
+//   return true
+// }
+
+// isPalindrome('hey...hhkky ,eh')

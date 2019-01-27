@@ -160,3 +160,17 @@ var reverse = function(x) {
 // }
 
 // isPalindrome('hey...hhkky ,eh')
+
+
+// ---------------------Implement strStr()
+//Runtime 72 ms
+
+// var strStr = function(haystack, needle) {
+//   return haystack.indexOf(needle)
+// };
+
+
+
+
+
+
